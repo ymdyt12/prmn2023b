@@ -8,6 +8,6 @@ public class prac2_1 {
         String name1 = input.next();
         System.out.println("番号を入力");
         int num =  input.nextInt();
-        System.out.println("氏名：" + name1 + "\n" + "学籍番号:" + num);
+        System.out.printf("氏名：%s \n学籍番号:%d",name1,num);
     }
 }
